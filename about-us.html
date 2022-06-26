@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Us | Open Philosophy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <!--<a class="navbar-brand" href="#">Logo</a>-->
+      <a href="index.html"><img src="logo-clear-bw.png" width="60px;"></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+
+        <li><a href="index.html">Home</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Competitions
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a style="margin: 18px; font-size: 18px;" class="dropdown-item" href="potm.html">PotM</a>
+          </div>
+        </li>
+
+        <li><a href="discord.html">Discord</a></li>
+        <li><a href="#">Resources</a></li>
+        <li class="active"><a href="about-us.html">About Us</a></li>
+
+      </ul>
+      <!--<ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>-->
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <!--<div class="col-sm-2 sidenav">
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>-->
+    <div class="col-sm text-center" style="padding-left: 50px; padding-right: 50px; padding-top: 20px;"> 
+      <img style="padding-top: 50px;" src="about-us-logo.png" width="321px;">
+      <h1 style="font-size: 45px;">About Us</h1>
+      <p style="font-size: 25px;">Mission, Staff, Advisors</p>
+      <hr><br>
+
+      <div>
+        <h1>Mission</h1><br>
+        <p style="font-size: 20px;">We're a group of enthusiastic high school students hoping to promote philosophy among our peers. We believe philosophy can truly change a student's life, from learning how to think rigorously to finding meaning in our daily existence.
+        </p>
+      </div>
+
+      <div>
+        <h1>Staff</h1><br>
+        <div class="container-fluid">
+          <div class="row">
+            
+            <div class="col-sm-3">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <b style="font-size: 20px;">Alexander Chen</b>
+                  <p>Chenster#8100</p>
+                </div>
+                <div style="font-size: 16px;" class="panel-body"><i>Director & Co-Founder</i></div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <b style="font-size: 20px;">Gayathri Kaimal</b>
+                  <p>Gaya3#2508</p>
+                </div>
+                <div style="font-size: 16px;" class="panel-body"><i>Content Lead & Co-Founder</i></div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <b style="font-size: 20px;">Nathan Zhao</b>
+                  <p>Equitab#3786</p>
+                </div>
+                <div style="font-size: 16px;" class="panel-body"><i>Tech Lead & Co-Founder</i></div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <b style="font-size: 20px;">David Cui</b>
+                  <p>Pepe the tortoise#4658</p>
+                </div>
+                <div style="font-size: 16px;" class="panel-body"><i>Marketing Lead</i></div>
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <b style="font-size: 20px;">Jonathan Pei</b>
+                  <p>RadiantCheddar#3712</p>
+                </div>
+                <div style="font-size: 16px;" class="panel-body"><i>Server Bot Builder</i></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+      <div style="padding-bottom: 50px;">
+        <h1>Advisors</h1><br>
+        <div class="container-fluid">
+          <table class="table">
+            
+            <tbody>
+              <tr>
+                <td style="font-size: 20px;">Christopher Bobonich</td>
+                <td style="font-size: 16px;">Clarence Irving Lewis Professor of Philosophy, Stanford University</td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;">Margaret O'Dwyer</td>
+                <td style="font-size: 16px;">Founder & Executive Director, Delaware Youth Leadership Network</td>
+              </tr>
+              <tr>
+                <td style="font-size: 20px;">Stephen Miller</td>
+                <td style="font-size: 16px;">Chair of Committee on Pre-College Instruction, American Philosophical Association<br>
+                   Adjunct Professor of Philosophy and Religious Studies, Marist College</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+      
+    </div>
+    <!--<div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>-->
+  </div>
+</div>
+
+
+
+<!--<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>-->
+
+</body>
+
+
+</html>
